@@ -1,0 +1,25 @@
+{
+  "Register" : {
+     "RQ#" : "None",
+     "Name" : "None",
+     "Role" : "None",
+     "IP Address" : "None",
+     "UDP Socket#" : "None",
+     "TCP Socket#" : "None"
+  },
+  "Registered" : {
+     "RQ#" : "None"
+  }, 
+
+  "Register-Denied" : {
+     "RQ#" : "None",
+     "Reason" : "None"
+  },
+  {
+    "Deregister" : {
+
+     "RQ#" : "None",
+     "Name" : "None"
+    }
+  }
+}

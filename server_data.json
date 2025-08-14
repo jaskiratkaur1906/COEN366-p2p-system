@@ -1,0 +1,260 @@
+{
+  "users": {
+    "scottob": {
+      "role": "buyer",
+      "ip": "192.168.2.28",
+      "udp_port": "6275",
+      "tcp_port": "7141",
+      "time": "2025-04-09 17:09:17"
+    },
+    "scottos": {
+      "role": "seller",
+      "ip": "192.168.2.28",
+      "udp_port": "6275",
+      "tcp_port": "7141",
+      "time": "2025-04-09 17:09:37"
+    },
+    "scottoi": {
+      "role": "buyer",
+      "ip": "192.168.2.28",
+      "udp_port": "6091",
+      "tcp_port": "7735",
+      "time": "2025-04-09 17:12:26"
+    },
+    "scottobnn": {
+      "role": "buyer",
+      "ip": "192.168.2.28",
+      "udp_port": "6927",
+      "tcp_port": "7728",
+      "time": "2025-04-09 17:44:13"
+    },
+    "scottoreg": {
+      "role": "seller",
+      "ip": "192.168.2.28",
+      "udp_port": "6581",
+      "tcp_port": "7016",
+      "time": "2025-04-09 23:22:23"
+    },
+    "scoreg": {
+      "role": "buyer",
+      "ip": "192.168.2.28",
+      "udp_port": "6834",
+      "tcp_port": "7830",
+      "time": "2025-04-09 23:38:13"
+    },
+    "Zahed": {
+      "role": "buyer",
+      "ip": "127.0.0.1",
+      "udp_port": "6522",
+      "tcp_port": "7215",
+      "time": "2025-04-12 21:58:36"
+    },
+    "james": {
+      "role": "seller",
+      "ip": "127.0.0.1",
+      "udp_port": "6066",
+      "tcp_port": "7839",
+      "time": "2025-04-12 21:59:11"
+    },
+    "Willy": {
+      "role": "buyer",
+      "ip": "127.0.0.1",
+      "udp_port": "6509",
+      "tcp_port": "7286",
+      "time": "2025-04-12 22:02:11"
+    },
+    "Willow": {
+      "role": "buyer",
+      "ip": "127.0.1.1",
+      "udp_port": "6325",
+      "tcp_port": "7215",
+      "time": "2025-04-12 22:23:33"
+    }
+  },
+  "subscriptions": {
+    "1": {
+      "client_name": "scottos",
+      "name": "teddy_bear"
+    },
+    "2": {
+      "client_name": "scottoi",
+      "name": "teddy_bear"
+    },
+    "3": {
+      "client_name": "scottobnn",
+      "name": "teddy"
+    },
+    "4": {
+      "client_name": "scottob",
+      "name": "teddy_bear"
+    },
+    "5": {
+      "client_name": "scottob",
+      "name": "teddy_bear"
+    },
+    "6": {
+      "client_name": "scottob",
+      "name": "bear_toy"
+    },
+    "7": {
+      "client_name": "scoreg",
+      "name": "bear_toy"
+    },
+    "8": {
+      "client_name": "scottob",
+      "name": "new_bear"
+    },
+    "9": {
+      "client_name": "Zahed",
+      "name": "Kite"
+    },
+    "10": {
+      "client_name": "Zahed",
+      "name": "Kite"
+    },
+    "11": {
+      "client_name": "Zahed",
+      "name": "Kite"
+    },
+    "12": {
+      "client_name": "Willy",
+      "name": "Kite"
+    }
+  },
+  "items": {
+    "1": {
+      "name": "teddy_bear",
+      "description": "it's_a_bear",
+      "start_price": 30.0,
+      "current_price": 30.0,
+      "duration": 48,
+      "seller_address": [
+        "127.0.0.1",
+        6275
+      ],
+      "start_time": "2025-04-09T17:09:55.804345",
+      "end_time": "2025-04-11T17:09:55.804347",
+      "active": true,
+      "bids": [],
+      "highest_bidder": null
+    },
+    "2": {
+      "name": "teddy",
+      "description": "bear",
+      "start_price": 2.0,
+      "current_price": 2.0,
+      "duration": 5,
+      "seller_address": [
+        "127.0.0.1",
+        6091
+      ],
+      "start_time": "2025-04-09T17:42:01.362394",
+      "end_time": "2025-04-09T22:42:01.362409",
+      "active": true,
+      "bids": [],
+      "highest_bidder": null
+    },
+    "3": {
+      "name": "new_bear",
+      "description": "bear",
+      "start_price": 30.0,
+      "current_price": 30.0,
+      "duration": 1,
+      "seller_address": [
+        "127.0.0.1",
+        6581
+      ],
+      "seller_name": "scottoreg",
+      "start_time": "2025-04-09T23:22:36.537092",
+      "end_time": "2025-04-09T23:23:36.537094",
+      "active": false,
+      "bids": [],
+      "highest_bidder": null
+    },
+    "4": {
+      "name": "bear_toy",
+      "description": "bear",
+      "start_price": 3.0,
+      "current_price": 3.0,
+      "duration": 1,
+      "seller_address": [
+        "127.0.0.1",
+        6500
+      ],
+      "seller_name": "scottoreg",
+      "start_time": "2025-04-09T23:23:11.031844",
+      "end_time": "2025-04-09T23:24:11.031846",
+      "active": false,
+      "bids": [],
+      "highest_bidder": null
+    },
+    "5": {
+      "name": "brownbear",
+      "description": "toy",
+      "start_price": 30.0,
+      "current_price": 30.0,
+      "duration": 1,
+      "seller_address": [
+        "127.0.0.1",
+        6834
+      ],
+      "seller_name": "scoreg",
+      "start_time": "2025-04-09T23:34:23.611775",
+      "end_time": "2025-04-09T23:35:23.611790",
+      "active": false,
+      "bids": [],
+      "highest_bidder": null
+    },
+    "6": {
+      "name": "Kite",
+      "description": "fly",
+      "start_price": 20.0,
+      "current_price": 25.0,
+      "duration": 2,
+      "seller_address": [
+        "127.0.0.1",
+        6066
+      ],
+      "seller_name": "james",
+      "start_time": "2025-04-12T22:00:37.202642",
+      "end_time": "2025-04-12T22:02:37.202652",
+      "active": false,
+      "bids": [
+        [
+          "Zahed",
+          25.0
+        ]
+      ],
+      "highest_bidder": "Zahed",
+      "buyer_info": {
+        "name": "Mohammed",
+        "cc_num": "Zahed",
+        "cc_exp_date": "2222",
+        "address": "2222 Home"
+      },
+      "seller_info": {
+        "name": "Mohammed",
+        "cc_num": "James",
+        "cc_exp_date": "2234",
+        "address": "2112 Dubai"
+      }
+    },
+    "7": {
+      "name": "Window",
+      "description": "oo",
+      "start_price": 20.0,
+      "current_price": 20.0,
+      "duration": 1,
+      "seller_address": [
+        "127.0.0.1",
+        6637
+      ],
+      "seller_name": "james",
+      "start_time": "2025-04-12T22:22:26.464219",
+      "end_time": "2025-04-12T22:23:26.464227",
+      "active": false,
+      "bids": [],
+      "highest_bidder": null
+    }
+  }
+}
